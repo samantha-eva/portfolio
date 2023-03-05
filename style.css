@@ -315,11 +315,13 @@ header.sticky{
     margin-top: 5rem;
     text-align: center;
     cursor: pointer;
+    
   
 }
 
 .col{
         position: relative;
+        
 }
 
 .col img{
@@ -330,7 +332,7 @@ header.sticky{
         border-radius:  12px;
 }
 
-.layer{
+ .layer{
 
     background: transparent;
     height: 100%;
@@ -345,9 +347,9 @@ header.sticky{
 .layer:hover{
     background: linear-gradient(rgba(0,0,0,0.5) 0%, #191919);
 
-}
+} 
 
-.layer h3{
+ .layer h3{
     position: absolute;
     width: 100%;
     font-size:25px;
@@ -360,7 +362,7 @@ header.sticky{
     transition: all .40s;
 }
 
-.layer:hover h3{
+ .layer:hover h3{
     bottom: 25%;
     opacity: 1;
 }
@@ -381,7 +383,7 @@ header.sticky{
 .layer:hover h5{
     bottom: 15%;
     opacity: 1;
-}
+}  
 
 
 .service-content{
@@ -452,7 +454,6 @@ header.sticky{
 }
 
 .contact{
-    background: #8c52ff;
     width: 64%;
     margin: 100px auto;
     padding: 70px 150px;
@@ -461,29 +462,71 @@ header.sticky{
     justify-content: center;
     text-align: center;
     border-radius: 12px;
-    background-image: url('images/contact.jpg');
+    background-image: url('images/painting.jpg');
     background-size: cover;
     
-
+    
+   
+    
 }
 
 .center h3{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 3px;
-    color: var(--bg-color)
+    color:#000;
+    /* color: var(--bg-color) */
 }
 
 .center p{
 
     font-size: var(--p-font);
-    color: var(--bg-color);
+    /* color: var(--bg-color); */
+    color: #000;
     line-height: 26px;
     margin-bottom: 25px;
 
 }
 
-.contact .action form input[type="email"]{
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 30px;
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 30px;
+    
+  }
+  
+  input[type=submit] {
+    background: var(--main_color);
+    color: var(--bg-color);
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+  }
+  
+ 
+
+/* .contact .action form input[type="email"]{
     max-width: 100%;
     width: 470px;
     padding: 12px 15px;
@@ -506,7 +549,7 @@ header.sticky{
     border-radius: 30px;
     cursor: pointer;
 
-}
+} */
 
 .footer{
    text-align: center; 
@@ -517,6 +560,26 @@ padding: 40px;
     font-size:var(--p-font);
     letter-spacing: 1px;
 }
+
+#btnScroll{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--main_color);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+#btnScroll:active{
+    background: #cc2333;
+}
+
 
 @media(max-width: 1425px){
     header{
