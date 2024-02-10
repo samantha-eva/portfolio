@@ -1,3 +1,17 @@
+<?php require("script.php"); ?>
+<?php
+    if(isset($_POST['submit'])){
+        if(empty($_POST['email']) || empty($_POST['subject']) || empty($_POST['message']) || empty($_POST['nom'])){
+            $response = "All fields are required";
+        }else{
+            $response = sendMail($_POST['email'], $_POST['subject'], $_POST['message'], $_POST['nom']);
+        }
+    }
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -197,14 +211,24 @@
                     <p>N'hesite pas a me poser vos questions par mail </p>
                 </div>
                 <div class="action">
-                    <form>
+                    <form action="" method="POST">
                         <input type="text" name="nom" placeholder="Entrez votre nom" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
                         <input type="email" name="email" placeholder="Entrez votre adresse mail" required>
-                        <textarea id="story" name="story" rows="5" cols="33"  required>Entrez votre message.</textarea>
+                        <textarea id="message" name="message" rows="5" cols="33"  required>Entrez votre message.</textarea>
                         <input type="submit" name="submit" value="envoyer">
-
+                        <?php
+                        if(@$response == 'success'){
+                            ?>
+                            <p class="success">Email envoyé</p>
+                            <?php 
+                        }else{
+                            ?>
+                             <p class="error"><?php echo @$response; ?></p>
+                             <?php
+                        }
+                        ?>
                     </form>
-
                 </div>
                 </div>
 
