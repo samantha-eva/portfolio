@@ -110,10 +110,10 @@ position: relative;
     color: var(--bg-color);
 
 }
+/* px corresponds a l'espace entre les section et le % la largeur */
 
 section{
-    padding: 100px 18%;
-
+    padding: 55px 18%;
 }
 
 .home{
