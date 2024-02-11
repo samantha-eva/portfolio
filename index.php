@@ -15,7 +15,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -108,7 +108,7 @@
         <div class="about-text">
             <h3>Je suis Developpeuse web</h3>
             <h2>Je favorise la création de code qui rend un site web fonctionnel et utilisable</h2>
-            <p>Bonjour!, je sus developpeur web, et je suis une grande passionée de progammation.j'ai 2 ans experience profession. J'ai acquis de nombreuses compétences qui sont néccesaire a la conception d'un projet avec succes.
+            <p>Bonjour!, je suis developpeur web, et je suis une grande passionée de progammation.j'ai 2 ans experience profession. J'ai acquis de nombreuses compétences qui sont néccesaire a la conception d'un projet avec succes.
                 J'aime travaillé en équipe et surtout j'apprends tous les jours.
             </p>
             <br>
@@ -121,8 +121,8 @@
 
     <section class="projet" id="projet">
         <div class="heading">
-            <h3>Projet</h3>
-            <h2>Mes differents Projets</h2>
+            <h3>Projets</h3>
+            <h2>Mes différents projets</h2>
             <p>Bienvenue dans la section dédiée à mes projets, où chaque ligne de code, chaque concept créatif et chaque problème résolu trouve son refuge. Cette collection représente mon parcours passionné à travers divers domaines, mettant en lumière ma polyvalence et mon engagement envers l'excellence.</p>
         </div>
 
@@ -213,7 +213,7 @@
         <div class="container">
             <div class="center">
                 <h3>Contactez moi</h3>
-                <p>N'hesite pas a me poser vos questions par mail </p>
+                <p>N'hésitez pas à me poser vos questions par mail.</p>
             </div>
             <div class="action">
                 <form action="" method="POST">
