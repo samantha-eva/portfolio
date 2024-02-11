@@ -127,30 +127,38 @@
         </div>
 
         <div class="projet-content">
-            <div class="col">
-                <img src="images/assurmix.png">
+            <div class="row-project">
+                <img class="img-projet" src="images/site_assurmix.png">
                 <div class="layer">
-                    <h3>Assurmix</h3>
-                    <h5>assurance</h5>
+                    <h5>Assurmix</h5>
+                    <a href="https://www.assurmix.fr/"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
-            <div class="col">
-                <img src="images/econick.png">
+            <div class="row-project">
+                <img class="img-projet" src="images/site_econick.png">
                 <div class="layer">
-                    <h3>Econick</h3>
-                    <h5>envrionnement</h5>
+                    <h5>Econick</h5>
+                    <a href="https://www.econick.fr/"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
-            <div class="col">
-                <img src="images/oeuvre-des-campagnes.png">
+            <div class="row-project">
+                <img class="img-projet" src="images/site_odc.png">
                 <div class="layer">
-                    <h3>ODC</h3>
-                    <h5>relifgion</h5>
+                    <h5>Oeuvre des campagnes</h5>
+                    <a href="https://odc.innosys.fr/login"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
-            
+
+            <div class="row-project">
+                <img class="img-projet" src="images/site_portfolio.png">
+                <div class="layer">
+                    <h5>Portfolio</h5>
+                    <a href="https://odc.innosys.fr/login"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
         </div>
     </section>
 
