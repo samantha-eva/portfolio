@@ -130,8 +130,7 @@
             <div class="row-project">
                 <img class="img-projet" src="images/site_assurmix.png">
                 <div class="layer">
-                    <h5>Assurance</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h5>Assurmix</h5>
                     <a href="https://www.assurmix.fr/"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -139,8 +138,7 @@
             <div class="row-project">
                 <img class="img-projet" src="images/site_econick.png">
                 <div class="layer">
-                    <h5>Environnement</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h5>Econick</h5>
                     <a href="https://www.econick.fr/"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -148,8 +146,15 @@
             <div class="row-project">
                 <img class="img-projet" src="images/site_odc.png">
                 <div class="layer">
-                    <h5>Association</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h5>Oeuvre des campagnes</h5>
+                    <a href="https://odc.innosys.fr/login"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="row-project">
+                <img class="img-projet" src="images/site_portfolio.png">
+                <div class="layer">
+                    <h5>Portfolio</h5>
                     <a href="https://odc.innosys.fr/login"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
