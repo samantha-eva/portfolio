@@ -17,3 +17,7 @@ Bienvenue sur mon portfolio ! C'est une vitrine de mes compétences et de mes pr
 
 # Icon
 https://boxicons.com/
+
+## Mail
+https://www.emailjs.com/
+
