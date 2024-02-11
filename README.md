@@ -2,7 +2,7 @@
 
 Bienvenue sur mon portfolio ! C'est une vitrine de mes compétences et de mes projets.
 
-## Technologies Used
+## Technologies utilisées
 
 - HTML
 - CSS
