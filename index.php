@@ -108,7 +108,7 @@
         <div class="about-text">
             <h3>Je suis Developpeuse web</h3>
             <h2>Je favorise la création de code qui rend un site web fonctionnel et utilisable</h2>
-            <p>Bonjour!, je suis developpeur web, et je suis une grande passionée de progammation.j'ai 3 ans experience profession. J'ai acquis de nombreuses compétences qui sont néccesaire a la conception d'un projet avec succes.
+            <p>Bonjour!, je suis developpeur web, et je suis une grande passionée de progammation. J'ai 3 ans d'expérience professionnelle. J'ai acquis de nombreuses compétences qui sont nécessaires à la conception d'un projet avec succès.
                 J'aime travaillé en équipe et surtout j'apprends tous les jours.
             </p>
             <br>
