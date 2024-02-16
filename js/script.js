@@ -32,7 +32,23 @@ function sendMail(){
         email_id :  document.getElementById("email_id").value,
         message : document.getElementById("message").value
     }
-    emailjs.send("service_v0psvyg", "template_icikovk", params).then(function(res) {
-        alert("success" +res.status);
+    emailjs.send("service_v0psvyg", "template_icikovk", params)
+    .then(function() {
+        showNotification("Le mail a été envoyé avec succès");
     })
+    .catch(function(error) {
+        console.error("Erreur lors de l'envoi du mail : ", error);
+    });
+}
+
+function showNotification(message) {
+    var notificationElement = document.getElementById("notification");
+    var notificationTextElement = document.getElementById("notification-text");
+    notificationTextElement.textContent = message;
+    notificationElement.style.display = "block";
+
+    // Masquer la notification après quelques secondes (par exemple, 5 secondes)
+    setTimeout(function() {
+        notificationElement.style.display = "none";
+    }, 5000); // 5000 millisecondes = 5 secondes
 }

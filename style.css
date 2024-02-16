@@ -543,11 +543,27 @@ padding: 40px;
 #btnScroll:active{
     background: #cc2333;
 }
+/************** NOTIFICATION ***************/
+
+#notification {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    z-index: 1000;
+    display: none;
+}
+
+
 
 
 @media(max-width: 1425px){
     header{
-        padding: 16px 3%;
+        padding: 16px 13%;
         transition: .3s;
     }
     header.sticky{
