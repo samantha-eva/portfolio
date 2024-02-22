@@ -558,7 +558,34 @@ padding: 40px;
     display: none;
 }
 
+/**********MENTIONS LEGALES*************/
+.home_mention_legale{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background: url('images/juridique.png');
+    background-size: cover;
+    background-position: center;
+}
 
+.home-text-mentions{
+    width: 65%;
+    margin-top: 150px;
+}
+
+.home-text-mentions h3{
+    color: var(--main_color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-text-mentions p{
+    font-size: var(--p-font);
+    color:#000;
+    line-height: 28px;
+    margin-bottom: 20px;
+
+}
 
 
 @media(max-width: 1425px){
